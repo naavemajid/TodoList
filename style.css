@@ -4,18 +4,59 @@
     box-sizing: border-box;
 }
 
+
 .header{
     background-color:  #f44336;
-}
-
-.container{
-    max-width: 600px;
-}
-
-.header h1{
+    padding: 30px;
     text-align: center;
 }
 
-.header input{
-    width: 300px;
+.container{
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+.header h2{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.header input{
+    width:  75%;
+    padding: 11px;
+  
+}
+
+
+.header span{
+    background-color: #dfd6d6;
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    margin-left: -4.5px;
+    border-radius: 0;
+   
+}
+
+.container ul{
+    list-style-type: none;
+}
+
+.list{
+    display: flex;
+    width: 100%;
+    background-color:  #dfd6d6;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.list:hover {
+   background-color: #868282;
+}
+
+
