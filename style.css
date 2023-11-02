@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color:  #f44336;
+}
+
+.container{
+    max-width: 600px;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.header input{
+    width: 300px;
+}
